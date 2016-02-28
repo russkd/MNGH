@@ -1,2 +1,10 @@
-<h1>StaticPages#contact</h1>
-<p>Find me in app/views/static_pages/contact.html.erb</p>
+<% provide(:title, "Contact") %>
+<html>
+  <head>
+    <title><%= yield(:title) %> | MyNextGenHealth</title>
+  </head>
+  <body>
+    <h1>Contact</h1>
+    <p>For help please call or email at</p>
+  </body>
+</html>

@@ -1,2 +1,10 @@
-<h1>StaticPages#about</h1>
-<p>Find me in app/views/static_pages/about.html.erb</p>
+<% provide(:title, "About") %>
+<html>
+  <head>
+    <title><%= yield(:title) %> | MyNextGenHealth</title>
+  </head>
+  <body>
+    <h1>About</h1>
+    <p>About stuff</p>
+  </body>
+</html>
