@@ -1,0 +1,13 @@
+<%= render 'shared/error_messages' %>
+
+<%= partial.label :name %>
+<%= partial.text_field :name, class: 'form_control' %>
+
+<%= partial.label :email %>
+<%= partial.email_field :email, class: 'form_control' %>
+
+<%= partial.label :password %>
+<%= partial.password_field :password, class: 'form_control' %>
+
+<%= partial.label :password_confirmation, "Confirmation" %>
+<%= partial.password_field :password_confirmation, class: 'form_control' %>
