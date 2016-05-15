@@ -16,5 +16,9 @@
 !/log/.keep
 /tmp
 
-# Ignore Spring files.
 /spring/*.pid
+\ No newline at end of file
+/spring/*.pid
+
+# Ignore uploaded test images.
+/public/uploads
